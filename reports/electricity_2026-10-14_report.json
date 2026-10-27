@@ -1,0 +1,30 @@
+{
+    "analysis": {
+        "resource": "electricity",
+        "date": "2026-10-14",
+        "expected_usage": 208.46153846153845,
+        "actual_usage": 340.0,
+        "percentage_change": 63.099630996309976,
+        "standard_deviation": 4.274252071325551,
+        "historical_minimum": 200.0,
+        "historical_maximum": 215.0,
+        "anomaly_threshold": 250.15384615384613,
+        "anomaly_detected": true,
+        "severity": "HIGH",
+        "trend": "Stable",
+        "occupancy": 81,
+        "temperature": 28.0,
+        "operating_hours": 18.0
+    },
+    "investigation": {
+        "possible_causes": [
+            "Recorded equipment operating hours are high.",
+            "Increased appliance usage or equipment malfunction is another possibility."
+        ],
+        "recommendations": [
+            "Review equipment schedules and verify whether the extended operating time was necessary.",
+            "Inspect high-consumption equipment and review equipment-level measurements if available."
+        ],
+        "confidence": "Low \u2014 aggregate consumption data alone cannot confirm the actual cause."
+    }
+}

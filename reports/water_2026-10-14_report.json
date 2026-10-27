@@ -1,0 +1,29 @@
+{
+    "analysis": {
+        "resource": "water",
+        "date": "2026-10-14",
+        "expected_usage": 1225.7692307692307,
+        "actual_usage": 2100.0,
+        "percentage_change": 71.32099152808284,
+        "standard_deviation": 26.99121414508138,
+        "historical_minimum": 1180.0,
+        "historical_maximum": 1270.0,
+        "anomaly_threshold": 1470.923076923077,
+        "anomaly_detected": true,
+        "severity": "HIGH",
+        "trend": "Stable",
+        "occupancy": 81,
+        "temperature": 28.0,
+        "operating_hours": 0.0
+    },
+    "investigation": {
+        "possible_causes": [
+            "A leak or unusually high water usage may explain the increase."
+        ],
+        "recommendations": [
+            "Inspect plumbing, taps, toilets, and water meters.",
+            "Check whether water was used for cleaning, maintenance, or other unusual activities."
+        ],
+        "confidence": "Low \u2014 aggregate consumption data alone cannot confirm the actual cause."
+    }
+}
